@@ -1,0 +1,2 @@
+# reusable-component-library
+This houses components that can be reused across Opencast projects. Feel free to add items that you think may be useful outside the project you are working. Please make sure that any items,s you do add are designed to be generic and are decoupled from the project you are working on. Ask yourself the question "Can what I am working in be useful outside my project and if so how much work is it to make it generic?".
