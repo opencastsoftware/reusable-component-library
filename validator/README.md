@@ -1,4 +1,4 @@
-# description
+# Description
 Checks if a data object conforms to the given template and throws an error if one of the following violations is found.
 
 - Mandatory property is missing
@@ -6,7 +6,7 @@ Checks if a data object conforms to the given template and throws an error if on
 
 Please see [here](https://opencastsoftware.atlassian.net/wiki/spaces/SD/pages/2563539019/Validator) for further documentation.
 
-# usage
+# Usage
 *new validator().validate(data, template, isUpdate)*
 
 "data" is the data to validate.
@@ -15,8 +15,8 @@ Please see [here](https://opencastsoftware.atlassian.net/wiki/spaces/SD/pages/25
 
 "isUpdate" specifies whether or not to ignore missing properties. This defaults to false if unspecified and (if true) specifies that you are validating an update object where missing properties mean unchanged propoerties.
 
-# dependency
+# Dependency
 `npm install validator`
 
-# author
+# Author
 [Patrick Lucas](patrick.lucas@opencastsoftware.com)
