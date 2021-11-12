@@ -7,5 +7,7 @@ Compares two objects ("old" and "new") and returns an object containing the proo
 The comparaision is fully recursive which means that properties can be objects in their own right. See unit tests for an exaamole of this.
 
 # usage
+*const diff = new Comparator().compare(old, new)*
 
-const diff = new Comparator().compare(old, new)
+# author
+[Patrick Lucas](patrick.lucas@opencastsoftware.com)
